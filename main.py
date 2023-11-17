@@ -3,43 +3,29 @@ import argparse
 
 # Script functions 
 
-def bicimad(c: str, dest: str):
-    c = input('Elige entre Bicimad o Bicipark: ')
-    dest = input('Introduce un Edificio de carácter monumental: ')
-    print(f'Elegiste: {c}')
-    print(f'En el lugar: {dest}')
+import argparse
+from p_acquisition import m_acquisition as mac
+from p_wrangling import m_wrangling as mwr
+from p_analysis import m_analysis as man 
+from p_reporting import m_reporting as mre
 
-def bicipark(c: str, dest: str):
-    c = input('Elige entre Bicimad o Bicipark: ')
-    dest = input('Introduce un Edificio de carácter monumental: ')
-    print(f'Elegiste: {c}')
-    print(f'En el lugar: {dest}')
-    
+def argument_parser():
+    parser = argparse.ArgumentParser(description = 'Set chart type')
+    parser.add_argument("-b", "--bar", help="Produce a barplot", action="store_true")
+    parser.add_argument("-l", "--line", help="Produce a lineplot", action="store_true")
+    args = parser.parse_args()
+    return args
 
-# Argument parser function
+def main(some_args):
+    data = mac.acquire()
+    filtered = mwr.wrangle(data, year)
+    results = man.analyze(filtered)
+    fig = mre.plotting_function(results, title, arguments)
+    mre.save_viz(fig, title)
+    print('========================= Pipeline is complete. You may find the results in the folder ./data/results =========================')
+
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description= 'Esta es una aplicación para encontrar una estación de bicimad o bicipark dependiendo del Edificios de carácter monumental en el que estes.' )
-    help_message ='Debes introducir un Edificios de carácter monumental de Madrid'
-    help_category ='Elige entre Bicimad o Bicipark'
-    parser.add_argument('-c', '--category', help=help_message, type=str)
-    args = parser.parse_args()
-    #return args.e
-
-
-# Pipeline execution
-
-#if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description= 'Esta es una aplicación para encontrar una estación de bicimad o bicipark dependiendo del Edificios de carácter monumental en el que estes.' )
-    help_message ='Debes introducir un Edificios de carácter monumental de Madrid' 
-    parser.add_argument('-e', '--edificio', help=help_message, type=str)
-    args = parser.parse_args()
-    #return args.e
-    
-    if args.e == 'bicimad':
-        bicimad(args.e)
-    elif args.e == 'bicipark':
-        bicipark(args.e)
-    else:
-        print('Este Edificios de carácter monumental no esta. Prueba con otro.')
-    
-    
+    year = int(input('Enter the year: '))
+    title = 'Top 10 Manufacturers by Fuel Efficiency ' + str(year)
+    arguments = argument_parser()
+    main(arguments)
