@@ -1,10 +1,10 @@
 <p align="left"><img src="https://cdn-images-1.medium.com/max/184/1*2GDcaeYIx_bQAZLxWM4PsQ@2x.png"></p>
 
-# __ih_datamadpt0923_project_m1__
+# _project_m1: Bicimad y Edificios de carácter monumental.
 
-Ironhack Madrid - Data Analytics Part Time - Sep 2023 - Project Module 1
+Data Analytics Part Time - Sep 2023 - Pro
 
-## **Data:**
+## **Project:**
 
 There are 2 main datasources:
 
@@ -14,37 +14,7 @@ There are 2 main datasources:
 
 > __IMPORTANT:__ These are the body corresponding to every dataset:
 
-- Alana: `/catalogo/209426-0-templos-catolicas.json`
 
-- Alberto: `/catalogo/209434-0-templos-otros.json`
-
-- Ana: `/catalogo/202162-0-instalaciones-accesibles-municip.json`
-
-- Andrew: `/catalogo/202180-0-instalaciones-accesibles-no-muni.json`
-
-- Carlos: `/catalogo/202311-0-colegios-publicos.json`
-
-- Elena: `/catalogo/203166-0-universidades-educacion.json`
-
-- Guille: `/catalogo/200215-0-instalaciones-deportivas.json`
-
-- John: `/catalogo/200304-0-centros-culturales.json`
-
-- Natalia: `/catalogo/201000-0-embajadas-consulados.json`
-
-- Rodrigo: `/catalogo/300356-0-monumentos-ciudad-madrid.json`
-
-- Sil: `/catalogo/208844-0-monumentos-edificios.json`
-
-- Silvia: `/catalogo/300614-0-centros-educativos.json`
-
-- Tere: `/catalogo/200761-0-parques-jardines.json`
-
-- Tomás: `/catalogo/212808-0-espacio-deporte.json`
-
-
-
----
 
 ## **Main Challenge:**
 
