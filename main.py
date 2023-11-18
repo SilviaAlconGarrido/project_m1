@@ -21,15 +21,15 @@ def elegir(categoria, sitio):
     print(f'Elegiste: {categoria}')
     print(f'En el lugar: {sitio}')
     if categoria == 'Bicimad':
-        print(f'El bicimad más cercano es: {df_biciMadf[df_biciMadf["place"]==sitio]["station_address"]} ')
-        print(f'En esta distancia: {df_biciMadf[df_biciMadf["place"]==sitio]["distance"]} ')
-        print(df_biciMadf[df_biciMadf['place']==sitio][["place_address", "station_name","station_address", "distance"]])
+        print(f'El bicimad más cercano es: {df_biciMadf[df_biciMadf["place"]==sitio]["station_address"].iloc[0]} ')
+        print(f'En esta distancia: {df_biciMadf[df_biciMadf["place"]==sitio]["distance"].iloc[0]} metros')
+        #print(df_biciMadf[df_biciMadf['place']==sitio][["place_address", "station_name","station_address", "distance"]])
         #return df_biciMadf[df_biciMadf['place']==sitio]
 
     if categoria == 'Bicipark':
-        print(f'El Bicipark más cercano es: {df_biciParkf[df_biciParkf["place"]==sitio]["station_name"]}')
-        print(f'En esta distancia: {df_biciParkf[df_biciParkf["place"]==sitio]["distance"]} ')
-        print(df_biciParkf[df_biciParkf['place']==sitio][["place_address", "station_name","station_address", "distance"]])
+        print(f'El Bicipark más cercano es: {df_biciParkf[df_biciParkf["place"]==sitio]["station_name"].iloc[0]}')
+        print(f'En esta distancia: {df_biciParkf[df_biciParkf["place"]==sitio]["distance"].iloc[0]} metros')
+        #print(df_biciParkf[df_biciParkf['place']==sitio][["place_address", "station_name","station_address", "distance"]])
 
     else:
         return('Elige entre Bicimad y Bicipark')
