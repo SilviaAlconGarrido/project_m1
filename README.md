@@ -1,12 +1,14 @@
-<p align="center"><img src="https://https://github.com/SilviaAlconGarrido/ih_datamadpt0923_project_m1/master/asstes/banco_espana.jpeg"></p>
+<p>![Image] align="center"><img src="https://www.google.com/search?sca_esv=583796676&sxsrf=AM9HkKm6OEfnVR_7F9rNlXwKsgSSXayNLw:1700406858799&q=banco+de+espa%C3%B1a+madrid&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwjO9qqWrdCCAxVFaqQEHfuQDOEQ0pQJegQIDRAB&biw=1383&bih=680&dpr=1#imgrc=6pvGVL55_vxtSM"></p>
 
-# _project_m1: Bicimad y Edificios de carácter monumental.
+# Bicimad y Edificios de carácter monumental.
 
 Data Analytics Part Time - Sep 2023 - Pro
 
-## **Project:**$
+## **Project:**
 
-There are 2 main datasources:
+En este proyecto presentamos una propuesta de mejora para la aplicación de Bicimad y Bicipark de la Comunidad de Madrid. En ella presentamos 
+
+En el trabajamos con los datos tanto de Bicimad, Bicipark y los monumentos de caracter monumetal de la Comunidad de Madrid.
 
 - **CSV Files.** The datasets contains information from the BiciMAD stations including their location (i.e.: latitude / longitude). You may find the `.csv` files in the __data__ folder.
 
