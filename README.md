@@ -1,4 +1,4 @@
-<p align="left"><img src="https://cdn-images-1.medium.com/max/184/1*2GDcaeYIx_bQAZLxWM4PsQ@2x.png"></p>
+<p align="center"><img src="https://https://github.com/SilviaAlconGarrido/ih_datamadpt0923_project_m1/master/asstes/banco_espana.jpeg"></p>
 
 # _project_m1: Bicimad y Edificios de carácter monumental.
 
