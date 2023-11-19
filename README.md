@@ -4,7 +4,7 @@
 
 Data Analytics Part Time - Sep 2023 - Pro
 
-## **Project:**
+## **Project:**$
 
 There are 2 main datasources:
 
