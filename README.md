@@ -2,27 +2,41 @@
 
 # Bicimad y Edificios de carácter monumental.
 
-Data Analytics Part Time - Sep 2023 - Pro
+:vulcan_salute: ¿Te gustan las bicis? :bicyclist: 
+Esta aplicación te ayudara a mejor tu experiencia con Bicimad en Madrid.
 
-## **Project:**
+## :footprints: 
 
-En este proyecto presentamos una propuesta de mejora para la aplicación de Bicimad y Bicipark de la Comunidad de Madrid. En el trabajamos con los datos tanto de Bicimad, Bicipark y los monumentos de carácter monumetal de la Comunidad de Madrid.
+Esto es el primer proyecto del modulo 1 del bootcamp de Ironhack.
+
+## :thinking:**Project:**
+
+En este proyecto presentamos una propuesta de mejora para la aplicación de Bicimad y Bicipark de la Comunidad de Madrid. En el trabajamos con los datos tanto de Bicimad, Bicipark y los monumentos de carácter monumental de la Comunidad de Madrid.
 
 ## **¿Qué hace el proyecto?**
 
-You must create a Python App (**Data Pipeline**) that allow their potential users to find the nearest BiciMAD station to a set of places of interest using the methods included in the module `geo_calculations.py`. The output table should look similar to:
+El usuario pide por terminal la categoría que quiere si bicimad o bicipark y el monumento de carácter monumental en el que se encuentra. 
+La aplición te devuelve :
 
-| Place of interest | Type of place (*) | Place address | BiciMAD station | Station location |
-|---------|----------|-------|------------|----------|
-| Auditorio Carmen Laforet (Ciudad Lineal)   | Centros Culturales | Calle Jazmin, 46 | Legazpi | Calle Bolívar, 3 |
-| Centro Comunitario Casino de la Reina | Centros municipales de enseñanzas artísticas | Calle Casino, 3 | Chamartin | Calle Rodríguez Jaén, 40 |
-| ...     | ...            | ...        | ...      | ...        |
-> __(*)__ This correspond to the type of place assigned to you. 
+- La categoría que elegiste.
+
+- El monumento en el que te encuentras.
+
+- La dirección del lugar más cercano.
+
+- La distancia en metros de la que te encuentras de la categoría que elegiste. 
+
+- La disponibilidad de las bicis que hay.
+
+> [!NOTE]
+
+También hemos implementado que el usario pueda ver todas las estaciones de bicimad o bicipark con sus distancias, direcciones y demas monumentos.
+
+## :star_struck:****¿Por qué el proyecto es útil?
+
+Puedes saber el lugar mas cercano donde poder encontrar una bici o poder dejarla. Saber en que calle se encuentra y la distancia en la que se encuentra. Y la disponibilidad en ese preciso instante. 
+
 **Estructura del proyecto**
-
-**¿Por qué el proyecto es útil?**
-
-
 
 
 **Cómo pueden comenzar los usuarios con el proyecto.**
@@ -32,6 +46,12 @@ You must create a Python App (**Data Pipeline**) that allow their potential user
 - Incluye una tabla de contenidos.
 
 - Muestra ejemplos del proyecto.
+
+| Place of interest | Type of place (*) | Place address | BiciMAD station | Station location |
+|---------|----------|-------|------------|----------|
+| Auditorio Carmen Laforet (Ciudad Lineal)   | Centros Culturales | Calle Jazmin, 46 | Legazpi | Calle Bolívar, 3 |
+| Centro Comunitario Casino de la Reina | Centros municipales de enseñanzas artísticas | Calle Casino, 3 | Chamartin | Calle Rodríguez Jaén, 40 |
+| ...     | ...            | ...        | ...      | ...        |
 
 - Habla sobre las características principales.
 
