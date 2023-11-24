@@ -1,45 +1,45 @@
 
 ![imagen](assets/banco_espana.jpeg)
 
-# Bicimad y Edificios de carácter monumental.
+# Bicimad & Monuments.
 
-:vulcan_salute: ¿Te gustan las bicis? :bicyclist: 
-Esta aplicación te ayudara a mejor tu experiencia con Bicimad en Madrid.
+:vulcan_salute: Do you like bikes? :bicyclist: 
+This application will improve your expirience with Bicimad in Madrid.
 
-## :footprints: Primeros pasos.
+## :footprints: First steps.
 
-Esto es el primer proyecto del modulo 1 del bootcamp de Ironhack.
+This is the project for the first module of Inronhack's Bootcamp.
 
 ## :thinking: Project:
 
-En este proyecto presentamos una propuesta de mejora para la aplicación de Bicimad y Bicipark de la Comunidad de Madrid. En el trabajamos con los datos tanto de Bicimad, Bicipark y los monumentos de carácter monumental de la Comunidad de Madrid.
+In this project I am presenting an improvement proposal for the Bicimad and Bicipark applications in Madrid working with the data from both applications and also data containing information about monuments of Madrid.
 
-## :relieved: ¿Qué hace el proyecto?
+## :relieved: What does the project do?
 
-El usuario pide por terminal la categoría que quiere si bicimad o bicipark y el monumento de carácter monumental en el que se encuentra. 
-La aplición te devuelve :
+The user can choose by terminal the category (Bicimad or Bicipark) and the monument in which he is located.
+The application will return:
 
-- La categoría que elegiste.
+- The chosen category.
 
-- El monumento en el que te encuentras.
+- The monument where you are located.
 
-- La dirección del lugar más cercano.
+- The address of the closest place.
 
-- La distancia en metros de la que te encuentras de la categoría que elegiste. 
+- The distance in meters between your location and the category you chose. 
 
-- La disponibilidad de las bicis que hay.
+- The availability of the bikes.
 
 > [!NOTE]
 
-También hemos implementado que el usario pueda ver todas las estaciones de bicimad o bicipark con sus distancias, direcciones y demas monumentos.
+I have also implemented the possibility to allow the user to see all the Bicimad and Bicipark stations with their distance, addresses and monuments.
 
-## :star_struck: ¿Por qué el proyecto es útil?
+## :star_struck: Why is this project useful?
 
-Puedes saber el lugar mas cercano donde poder encontrar una bici o poder dejarla. Saber en que calle se encuentra y la distancia en la que se encuentra. Y la disponibilidad en ese preciso instante. 
+It is possible to know which is the closest place to find or to leave a bike, the address of that station, the distance to it and the availability of bikes. 
 
 ## :robot: Additionally:
 
-- Librerias con las que trabajadas:
+- Used libraries:
  
    * Pandas. 
    * Requests.
@@ -51,15 +51,16 @@ Puedes saber el lugar mas cercano donde poder encontrar una bici o poder dejarla
    * Arparse.
    * Fuzzywuzzy.
 
-- Datos con los que trabajados.
+- Data used.
 
 | Place of interest | Place address | BiciMAD station | Station location | Distance | Availability |
 |-------------------|---------------|-----------------|------------------|----------|--------------|
 | Almacenes Rodríguez | Calle CABALLERO DE GRACIA 3 | Tres Cruces | Calle Tres Cruces nº 7 | 148.15 | 7 |
 | ...     | ...            | ...        | ...      | ...        | ...    |
 
-## 	:see_no_evil: Estructura del proyecto:
+## 	:see_no_evil: Project structure:
 
+``` bash
 Proyect_m1/
 ├── _wip_
 |── assets
@@ -86,7 +87,7 @@ Proyect_m1/
 ├── LICENSE
 ├── main.py
 └── README.md
-
+```
 
  
 
