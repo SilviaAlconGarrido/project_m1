@@ -63,7 +63,7 @@ It is possible to know which is the closest place to find or to leave a bike, th
 ``` bash
 Proyect_m1/
 ├── _wip_
-|── assets
+├──  assets
 │    └── banco_espana.jpeg
 │── data
 │   ├── bici_monu.csv
@@ -73,7 +73,7 @@ Proyect_m1/
 │   ├── bicipark_stations.csv
 │   └── colum_bicimad_realtime1.csv
 ├── modules
-|   ├── m_bic_ava.py
+│   ├── m_bic_ava.py
 │   ├── m_biciMad.py
 │   ├── m_biciPark.py
 │   ├── m_func_ava.py
@@ -81,7 +81,7 @@ Proyect_m1/
 │   ├── m_funciones_bicipark.py
 │   └── m_json.py
 ├── notebooks
-|   ├── dev_api.ipynb
+│   ├── dev_api.ipynb
 │   └── dev_notebook_.ipnb
 ├── .gitignore
 ├── LICENSE
